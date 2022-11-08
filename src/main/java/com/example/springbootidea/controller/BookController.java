@@ -13,6 +13,7 @@ public class BookController {
 
     private List<Book> books = new ArrayList<>();
 
+
     //ResponseEntity: 表示整个HTTP Response：状态码，标头和正文内容。我们可以使用它来自定义HTTP Response 的内容。
     @PostMapping("/book")
     public ResponseEntity<List<Book>> addBook(@RequestBody Book book) {
