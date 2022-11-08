@@ -5,7 +5,7 @@ import lombok.Data;
 //书籍实体类
 
 //demo1
-
+//demo2
 @Data
 public class Book {
     private String name;
